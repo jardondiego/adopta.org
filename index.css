@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  --main-color: #765f5b;
+  --main-color-dimmed: #875f5b;
+}
+
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-bar {
+  height: 54px;
+  background-color: white;
+  display: flex;
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.navigation-bar__home {
+  margin-right: auto;
+  color: var(--main-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navigation-bar__item {
+  margin-left: 1rem;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation-bar__item:hover {
+  text-decoration: underline;
+}
+
+.splashscreen {
+  height: calc(100vh - 3rem);
+  background-image: url("./img/splashcreen.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex: 1 0 0;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+
+  color: white;
+}
+
+.splashscreen__container {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.splashscreen__title,
+.splashscreen__subtitle {
+  margin: 0;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  width: 100%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.splashscreen__title {
+  font-size: 96px;
+}
+
+.splashscreen__subtitle {
+  font-size: 72px;
+}
+
+.splashscreen__call-to-action {
+  margin: 1rem 0;
+}
+
+.splashscreen__call-to-action > button {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.splashscreen__call-to-action > button:hover {
+  background-color: var(--main-color-dimmed);
+}
+
+.why {
+  display: flex;
+  flex: 1 0 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 3rem 12.5%;
+}
+
+.why img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.why__title {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.why-item__title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.why-item {
+  width: 25%;
+}
+
+.about-us {
+  background-color: var(--main-color);
+  color: white;
+  display: flex;
+  flex: 1 0 0;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 15%;
+}
+
+.about-us__logo {
+  font-size: 72px;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.about-us__description {
+  font-size: 24px;
+}
+
+.adopt {
+  padding: 2rem 4rem;
+  display: flex;
+  flex: 1 0 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dog-list {
+  width: 70%;
+  display: grid;
+  grid-column-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.dog-list-item__name,
+.dog-list-item__gender {
+  text-transform: uppercase;
+}
+
+.dog-list-item__name {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.dog-list-item img {
+  width: 100%;
+  display: block;
+}
+
+.adopt__contact {
+  display: block;
+  width: 70%;
+  margin: 1.5rem 0;
+}
+
+.adopt__email {
+  color: var(--main-color);
+}
+
+.dog-list-item__name {
+  display: block;
+  font-weight: bold;
+}

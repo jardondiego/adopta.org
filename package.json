@@ -1,0 +1,24 @@
+{
+  "name": "adopta.org",
+  "version": "1.0.0",
+  "description": "Proyecto del taller \"Introducción al desarrollo web con JavaScript\" impartido en la Facultad de Ciencias de la UNAM por Diego Jardón",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jardondiego/adopta.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jardondiego/adopta.org/issues"
+  },
+  "homepage": "https://github.com/jardondiego/adopta.org#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

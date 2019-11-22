@@ -5,56 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <title>Adopta un perro en adopta.org</title>
   </head>
   <body>
     <nav class="navigation-bar">
-      <a class="navigation-bar__item">Initio</a>
-      <a class="navigation-bar__item">Adopta</a>
+      <a class="navigation-bar__home" href="index.html"><b>adopta.org</b></a>
+      <a class="navigation-bar__item" href="index.html">Inicio</a>
+      <a class="navigation-bar__item" href="index.hml">Adopta</a>
     </nav>
     <main class="splashscreen">
-      <h2 class="splashscreen__subtitle">¡No compres!</h2>
-      <h1 class="splashscreen__title">¡Adopta!</h1>
-      <a class="splashscreen__call-to-action" href="/adopta.html">Comenzar</a>
+      <div class="splashscreen__container">
+        <h2 class="splashscreen__subtitle">¡No compres!</h2>
+        <h1 class="splashscreen__title">¡Adopta!</h1>
+        <a class="splashscreen__call-to-action" href="index.html#adopt"
+          ><button>Comenzar</button></a
+        >
+      </div>
     </main>
     <section class="why">
-        <h1 class="why__title">¿Por qu  é adoptar?</h1>
-        <div class="why-item">
-            <img class="why-item__image" src="abandoned.jpg" alt="Perro abandonado">
-            <h2 class="why-item__title">Dale un nuevo hogar a perros que han sido abandonados</h2>
-        </div>
-        <div class="why-item">
-            <img class="why-item__image" src="fidelity.jpg" alt="Amigo fiel">
-            <h2 class="why-item__title">Encuentra un amigo fiel</h2>
-        </div>
-        <div class="why-item">
-            <img class="why-item__image" src="dog-waiting.jpg" alt="Perro esperando">
-            <h2 class="why-item__title">Miles de perros esperan en las protectoras</h2>
-        </div>
+      <h1 class="why__title">¿Por qué adoptar?</h1>
+      <div class="why-item">
+        <img
+          class="why-item__image"
+          src="img/abandoned-dog.jpg"
+          alt="Perro abandonado"
+        />
+        <h2 class="why-item__title">
+          Dale un nuevo hogar a perros que han sido abandonados
+        </h2>
+      </div>
+      <div class="why-item">
+        <img class="why-item__image" src="img/fidelity.jpg" alt="Amigo fiel" />
+        <h2 class="why-item__title">Encuentra un amigo fiel</h2>
+      </div>
+      <div class="why-item">
+        <img
+          class="why-item__image"
+          src="img/dog-waiting.jpg"
+          alt="Perro esperando"
+        />
+        <h2 class="why-item__title">
+          Miles de perros esperan en las protectoras
+        </h2>
+      </div>
     </section>
     <section class="about-us">
-        <img class="about-us__logo" src="logo.png" alt="adopta.org logo">
-        <p class="about-us__description">adopta.org es, desde 1996, una organización española especializada en la ayuda a perros y gatos abandonados y/o maltratados, una organización totalmente independiente que no recibe subvenciones de organismos oficiales, empresas ni partidos políticos. Practicamos el sacrificio cero, denunciamos judicialmente a los maltratadores y buscamos adoptantes para todos los animales que acogemos.</p>
+      <span class="about-us__logo" alt="adopta.org logo"
+        ><b>adopta<br />.org</b></span
+      >
+      <p class="about-us__description">
+        adopta.org es, desde 1996, una organización española especializada en la
+        ayuda a perros y gatos abandonados y/o maltratados, una organización
+        totalmente independiente que no recibe subvenciones de organismos
+        oficiales, empresas ni partidos políticos. Practicamos el sacrificio
+        cero, denunciamos judicialmente a los maltratadores y buscamos
+        adoptantes para todos los animales que acogemos.
+      </p>
     </section>
-    <section class="adopt">
-        <div class="dog-list">
-            <div class="dog-list-item">
-                <img class="dog-list-item__image" src="/nicole.jpg" alt="Nicole">
-                <span class="dog-list-item__name">Nicole</span>
-                <span class="dog-list-item__gender">Hembra</span>
-            </div>
-            <div class="dog-list-item">
-                <img class="dog-list-item__image" src="/rocky.jpg" alt="Nicole">
-                <span class="dog-list-item__name">Rocky</span>
-                <span class="dog-list-item__gender">Macho</span>
-            </div>
-            <div class="dog-list-item">
-                <img class="dog-list-item__image" src="/sparky.jpg" alt="Nicole">
-                <span class="dog-list-item__name">Sparky</span>
-                <span class="dog-list-item__gender">Macho</span>
-            </div>
+    <section class="adopt" id="adopt">
+      <div class="dog-list">
+        <div class="dog-list-item">
+          <img class="dog-list-item__image" src="img/nicole.png" alt="Nicole" />
+          <span class="dog-list-item__name">Nicole</span>
+          <span class="dog-list-item__gender">Hembra</span>
         </div>
-        <p class="adopt__contact">Envianos un correo <b class="adopt__email">adoptar@adopta.org</b> diciéndonos a quién te interesa adoptar!</p>
+        <div class="dog-list-item">
+          <img class="dog-list-item__image" src="img/rocky.png" alt="Nicole" />
+          <span class="dog-list-item__name">Rocky</span>
+          <span class="dog-list-item__gender">Macho</span>
+        </div>
+        <div class="dog-list-item">
+          <img class="dog-list-item__image" src="img/sparky.png" alt="Nicole" />
+          <span class="dog-list-item__name">Sparky</span>
+          <span class="dog-list-item__gender">Macho</span>
+        </div>
+      </div>
+      <p class="adopt__contact">
+        Envianos un correo
+        <b class="adopt__email">adoptar@adopta.org</b> diciéndonos a quién te
+        interesa adoptar!
+      </p>
     </section>
   </body>
 </html>
